@@ -11,7 +11,7 @@ A responsive photo printing web application demo built for a UAE-based photo pri
 - **Photo Management**: Rename photos, remove duplicates, and manage your selections
 - **Order Confirmation**: Secure order confirmation with modal and success notifications
 - **Mobile-First Design**: Fully responsive design optimized for all devices
-- **Modern Stack**: Built with Next.js 13, TypeScript, and Tailwind CSS
+- **Modern Stack**: Built with Next.js, TypeScript, and Tailwind CSS
 
 ## 🛠 Tech Stack
 

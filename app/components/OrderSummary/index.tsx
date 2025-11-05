@@ -88,7 +88,7 @@ export default function OrderSummary({
                             <img
                               src={photo.url}
                               alt={photo.name}
-                              className='w-full h-full object-cover transition-transform duration-200 hover:scale-110'
+                              className='w-full h-full object-cover transition-transform duration-200 '
                             />
                           ) : (
                             <Image
@@ -96,7 +96,7 @@ export default function OrderSummary({
                               alt={photo.name}
                               fill
                               sizes='(max-width: 640px) 40px, 48px'
-                              className='object-cover transition-transform duration-200 hover:scale-110'
+                              className='object-cover transition-transform duration-200 '
                             />
                           )}
                         </div>
@@ -130,7 +130,7 @@ export default function OrderSummary({
 
               <button
                 onClick={handlePayNow}
-                className='w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 sm:py-4 px-4 sm:px-6 rounded-lg sm:rounded-xl font-bold text-base sm:text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl cursor-pointer transform hover:scale-[1.02] active:scale-95'
+                className='w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 sm:py-4 px-4 sm:px-6 rounded-lg sm:rounded-xl font-bold text-base sm:text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl cursor-pointer transform  active:scale-95'
                 data-aos='zoom-in'
               >
                 Pay Now - AED {total}

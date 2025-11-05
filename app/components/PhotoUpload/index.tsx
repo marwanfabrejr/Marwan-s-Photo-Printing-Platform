@@ -191,7 +191,7 @@ export default function PhotoUpload({
                     <img
                       src={photo.url}
                       alt={photo.name}
-                      className='w-full h-full object-cover transition-transform duration-200 group-hover:scale-110'
+                      className='w-full h-full object-cover transition-transform duration-200'
                     />
                   ) : (
                     // For external URLs, use Next.js Image
@@ -200,7 +200,7 @@ export default function PhotoUpload({
                       alt={photo.name}
                       fill
                       sizes='(max-width: 475px) 33vw, (max-width: 640px) 25vw, 20vw'
-                      className='object-cover transition-transform duration-200 group-hover:scale-110'
+                      className='object-cover transition-transform duration-200'
                     />
                   )}
                 </div>

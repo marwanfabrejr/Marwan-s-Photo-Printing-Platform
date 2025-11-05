@@ -70,7 +70,7 @@ export default function PhotoPreview({
                 <img
                   src={photo.url}
                   alt={photo.name}
-                  className='w-full h-full object-cover transition-transform duration-200 hover:scale-110'
+                  className='w-full h-full object-cover transition-transform duration-200'
                 />
               ) : (
                 <Image
@@ -78,7 +78,7 @@ export default function PhotoPreview({
                   alt={photo.name}
                   fill
                   sizes='(max-width: 640px) 64px, 80px'
-                  className='object-cover transition-transform duration-200 hover:scale-110'
+                  className='object-cover transition-transform duration-200'
                 />
               )}
             </div>
